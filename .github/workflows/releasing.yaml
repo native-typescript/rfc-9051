@@ -54,6 +54,9 @@ jobs:
       - name: "Install the dependencies"
         run: |
           npm ci --registry=https://registry.npmjs.org --//registry.npmjs.org/:_authToken=${{secrets.NPM__REGISTRY__ACCESS_TOKEN}}
+      - name: "Set NODE_OPTIONS for the remaining steps"
+        run: |
+          echo 'NODE_OPTIONS="--import=@native-typescript/loader-of-typescript-for-node-js"' >> "$GITHUB_ENV"
       - env:
           GITHUB_TOKEN: "${{secrets.GITHUB_TOKEN}}"
         name: "Release"
