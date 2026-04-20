@@ -1,0 +1,1 @@
+export type {ContentTypeOfTextPlainNodeOfBodystructureOfMessage} from "./ContentTypeOfTextPlainNodeOfBodystructureOfMessage.ts";

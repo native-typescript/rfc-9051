@@ -1,1 +1,1 @@
-export type * as rfc9051 from "./source/index.ts";
+export * as rfc9051 from "./source/index.ts";
