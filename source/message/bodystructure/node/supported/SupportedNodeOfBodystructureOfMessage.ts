@@ -1,0 +1,35 @@
+import type {
+	BranchNonRootNodeOfBodystructureOfMessage,
+	BranchRootNodeOfBodystructureOfMessage,
+	LeafNonRootNodeOfBodystructureOfMessage,
+	LeafRootNodeOfBodystructureOfMessage,
+	MessageDeliveryStatusNonRootNodeOfBodystructureOfMessage,
+	MessageDeliveryStatusRootNodeOfBodystructureOfMessage,
+	MultipartReportNonRootNodeOfBodystructureOfMessage,
+	MultipartReportRootNodeOfBodystructureOfMessage,
+	Rfc822HeadersNonRootNodeOfBodystructureOfMessage,
+	Rfc822HeadersRootNodeOfBodystructureOfMessage,
+	Rfc822NonRootNodeOfBodystructureOfMessage,
+	Rfc822RootNodeOfBodystructureOfMessage,
+	TextNonPlainNonRootNodeOfBodystructureOfMessage,
+	TextNonPlainRootNodeOfBodystructureOfMessage,
+	TextPlainNonRootNodeOfBodystructureOfMessage,
+	TextPlainRootNodeOfBodystructureOfMessage,
+} from "../implementations/index.ts";
+export type SupportedNodeOfBodystructureOfMessage =
+	| BranchNonRootNodeOfBodystructureOfMessage
+	| BranchRootNodeOfBodystructureOfMessage
+	| LeafNonRootNodeOfBodystructureOfMessage
+	| LeafRootNodeOfBodystructureOfMessage
+	| MessageDeliveryStatusNonRootNodeOfBodystructureOfMessage
+	| MessageDeliveryStatusRootNodeOfBodystructureOfMessage
+	| MultipartReportNonRootNodeOfBodystructureOfMessage
+	| MultipartReportRootNodeOfBodystructureOfMessage
+	| Rfc822HeadersNonRootNodeOfBodystructureOfMessage
+	| Rfc822HeadersRootNodeOfBodystructureOfMessage
+	| Rfc822NonRootNodeOfBodystructureOfMessage
+	| Rfc822RootNodeOfBodystructureOfMessage
+	| TextNonPlainNonRootNodeOfBodystructureOfMessage
+	| TextNonPlainRootNodeOfBodystructureOfMessage
+	| TextPlainNonRootNodeOfBodystructureOfMessage
+	| TextPlainRootNodeOfBodystructureOfMessage;
