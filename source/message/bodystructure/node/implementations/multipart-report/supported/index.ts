@@ -1,0 +1,1 @@
+export type {SupportedMultipartReportNodeOfBodystructureOfMessage} from "./SupportedMultipartReportNodeOfBodystructureOfMessage.ts";

@@ -1,0 +1,1 @@
+export type {ContentTransferEncodingOfTextPlainNodeOfBodystructureOfMessage} from "./ContentTransferEncodingOfTextPlainNodeOfBodystructureOfMessage.ts";
