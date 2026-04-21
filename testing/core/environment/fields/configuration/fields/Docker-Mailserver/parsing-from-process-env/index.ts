@@ -1,0 +1,1 @@
+export {parseDockerMailserverOfConfigurationOfEnvironmentOfTestingFromProcessEnv} from "./parseDockerMailserverOfConfigurationOfEnvironmentOfTestingFromProcessEnv.ts";

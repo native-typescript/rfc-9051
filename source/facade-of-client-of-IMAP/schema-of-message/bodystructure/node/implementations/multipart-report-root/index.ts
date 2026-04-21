@@ -1,0 +1,1 @@
+export {schemaOfMultipartReportRootNodeOfBodystructureOfMessage} from "./schemaOfMultipartReportRootNodeOfBodystructureOfMessage.ts";

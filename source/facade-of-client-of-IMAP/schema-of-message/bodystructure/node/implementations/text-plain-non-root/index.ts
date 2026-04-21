@@ -1,0 +1,1 @@
+export {schemaOfTextPlainNonRootNodeOfBodystructureOfMessage} from "./schemaOfTextPlainNonRootNodeOfBodystructureOfMessage.ts";

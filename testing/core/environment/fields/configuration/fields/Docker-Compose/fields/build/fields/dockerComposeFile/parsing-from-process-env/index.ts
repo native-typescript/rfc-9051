@@ -1,0 +1,1 @@
+export {parseDockerComposeFileOfBuildOfDockerComposeOfConfigurationOfEnvironmentOfTestingFromProcessEnv} from "./parseDockerComposeFileOfBuildOfDockerComposeOfConfigurationOfEnvironmentOfTestingFromProcessEnv.ts";

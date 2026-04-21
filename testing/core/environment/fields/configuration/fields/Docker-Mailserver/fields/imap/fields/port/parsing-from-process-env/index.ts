@@ -1,0 +1,1 @@
+export {parsePortOfImapOfDockerMailserverOfConfigurationOfEnvironmentOfTestingFromProcessEnv} from "./parsePortOfImapOfDockerMailserverOfConfigurationOfEnvironmentOfTestingFromProcessEnv.ts";
