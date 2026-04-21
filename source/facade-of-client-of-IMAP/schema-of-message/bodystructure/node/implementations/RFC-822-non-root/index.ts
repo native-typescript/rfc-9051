@@ -1,0 +1,1 @@
+export {schemaOfRfc822NonRootNodeOfBodystructureOfMessage} from "./schemaOfRfc822NonRootNodeOfBodystructureOfMessage.ts";

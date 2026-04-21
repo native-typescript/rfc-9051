@@ -1,0 +1,8 @@
+import type {
+	ContextOfBuildOfDockerComposeOfConfigurationOfEnvironmentOfTesting,
+	DockerComposeFileOfBuildOfDockerComposeOfConfigurationOfEnvironmentOfTesting,
+} from "./fields/index.ts";
+export type BuildOfDockerComposeOfConfigurationOfEnvironmentOfTesting = {
+	readonly context: ContextOfBuildOfDockerComposeOfConfigurationOfEnvironmentOfTesting;
+	readonly dockerComposeFile: DockerComposeFileOfBuildOfDockerComposeOfConfigurationOfEnvironmentOfTesting;
+};
