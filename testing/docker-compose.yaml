@@ -1,0 +1,19 @@
+services:
+  docker-mailserver:
+    container_name: "docker-mailserver"
+    env_file: "./docker-mailserver.env"
+    healthcheck:
+      retries: 0
+      test: "ss --listening --ipv4 --tcp | grep --silent ':smtp' || exit 1"
+      timeout: "3s"
+    hostname: "mail.rfc-9051"
+    image: "ghcr.io/docker-mailserver/docker-mailserver:15.1.0"
+    ports:
+      - "25:25"
+      - "143:143"
+      - "465:465"
+      - "587:587"
+      - "993:993"
+    restart: "always"
+    stop_grace_period: "1m"
+    volumes: []

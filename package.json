@@ -8,7 +8,8 @@
 		"url": "https://github.com/native-typescript/rfc-9051/issues"
 	},
 	"dependencies": {
-		"@native-typescript/rfc-5322": "8.0.0"
+		"@native-typescript/rfc-5322": "8.0.0",
+		"imapflow": "1.3.2"
 	},
 	"description": "An implementation of RFC 9051 in TypeScript.",
 	"devDependencies": {
@@ -16,6 +17,7 @@
 		"@commitlint/types": "20.5.0",
 		"@native-typescript/loader-of-typescript-for-node-js": "1.0.0",
 		"@native-typescript/stringifying-zod-issues": "1.0.0",
+		"@native-typescript/waiting": "1.0.0",
 		"@release-it/conventional-changelog": "10.0.6",
 		"@stylistic/eslint-plugin": "5.10.0",
 		"@types/node": "25.5.0",
