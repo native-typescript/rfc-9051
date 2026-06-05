@@ -60,5 +60,5 @@
 		"typescript:check": "node --env-file-if-exists='./.env' ./node_modules/.bin/tsc"
 	},
 	"type": "module",
-	"version": "8.0.0"
+	"version": "9.0.0"
 }
